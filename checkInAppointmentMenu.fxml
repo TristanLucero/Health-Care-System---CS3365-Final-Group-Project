@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupproject.CheckInAppointmentMenuController">
+   <children>
+      <TextField fx:id="patientName" layoutX="48.0" layoutY="61.0" onAction="#patientName" prefHeight="25.0" prefWidth="203.0" />
+      <Text layoutX="48.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Name:" />
+      <TextField fx:id="address" layoutX="300.0" layoutY="49.0" onAction="#address" prefHeight="25.0" prefWidth="203.0" />
+      <Text layoutX="300.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:" />
+      <TextField fx:id="phoneNumber" layoutX="300.0" layoutY="113.0" onAction="#phoneNumber" prefHeight="25.0" prefWidth="203.0" />
+      <Text layoutX="300.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number: " />
+      <TextField fx:id="ssn" layoutX="300.0" layoutY="175.0" onAction="#ssn" prefHeight="25.0" prefWidth="203.0" />
+      <Text layoutX="302.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SSN:" />
+      <TextField fx:id="healthInsurance" layoutX="300.0" layoutY="236.0" onAction="#healthInsurance" prefHeight="25.0" prefWidth="203.0" />
+      <Text layoutX="302.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health Insurance: " />
+      <TextField fx:id="doctorName" layoutX="48.0" layoutY="188.0" onAction="#doctorName" prefHeight="25.0" prefWidth="203.0" />
+      <Text layoutX="48.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor Name:" />
+      <Button fx:id="searchForPatientChartButton" layoutX="48.0" layoutY="101.0" mnemonicParsing="false" onAction="#searchForPatientChartButton" text="Search for Patient Chart" />
+      <Button fx:id="updateInfo" layoutX="300.0" layoutY="286.0" mnemonicParsing="false" onAction="#updateInfo" text="Update Info" />
+   </children>
+</AnchorPane>

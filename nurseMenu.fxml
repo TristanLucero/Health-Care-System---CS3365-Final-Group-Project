@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="groupproject.NurseMenuController">
+   <children>
+      <TextField fx:id="HeightBox" layoutX="301.0" layoutY="141.0" />
+      <TextField fx:id="WeightBox" layoutX="301.0" layoutY="188.0" />
+      <TextField fx:id="BloodBox" layoutX="301.0" layoutY="239.0" />
+      <TextField fx:id="ReasonBox" layoutX="301.0" layoutY="289.0" />
+      <TextField fx:id="PatientBox" layoutX="212.0" layoutY="28.0" />
+      <TextField fx:id="TreatmentBox" layoutX="301.0" layoutY="339.0" />
+      <Label layoutX="110.0" layoutY="28.0" prefHeight="25.0" prefWidth="102.0" text="Patient Name" />
+      <Label layoutX="212.0" layoutY="145.0" text="Height" />
+      <Label layoutX="212.0" layoutY="192.0" text="Weight" />
+      <Label layoutX="187.0" layoutY="243.0" text="Blood Pressure" />
+      <Label layoutX="185.0" layoutY="293.0" text="Reason for Visit" />
+      <Label layoutX="194.0" layoutY="339.0" text="Prescription" />
+      <Button fx:id="SearchButton" layoutX="361.0" layoutY="28.0" mnemonicParsing="false" onAction="#PatientSearch" text="Search" />
+      <Button fx:id="UpdateButton" layoutX="395.0" layoutY="367.0" mnemonicParsing="false" onAction="#PatientUpdate" text="Update" />
+      <TextArea fx:id="TextBoxArea" layoutX="105.0" layoutY="61.0" prefHeight="72.0" prefWidth="345.0" />
+      <Button fx:id="NurseLogoutButton" layoutX="14.0" layoutY="367.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+   </children>
+</AnchorPane>
